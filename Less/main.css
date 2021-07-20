@@ -1,1 +1,202 @@
-@font-face{font-family:'Work Sans';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGsJow.ttf) format('truetype')}@font-face{font-family:'Work Sans';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3msJow.ttf) format('truetype')}@font-face{font-family:'Work Sans';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7GsJow.ttf) format('truetype')}@font-face{font-family:'Work Sans';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXNig.ttf) format('truetype')}@font-face{font-family:'Work Sans';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNig.ttf) format('truetype')}@font-face{font-family:'Work Sans';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNig.ttf) format('truetype')}@font-face{font-family:'Work Sans';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNig.ttf) format('truetype')}@font-face{font-family:'Quicksand';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18E.ttf) format('truetype')}@font-face{font-family:'Quicksand';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18E.ttf) format('truetype')}@font-face{font-family:'Quicksand';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18E.ttf) format('truetype')}@font-face{font-family:'Quicksand';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv18E.ttf) format('truetype')}@font-face{font-family:'Quicksand';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18E.ttf) format('truetype')}@font-face{font-family:'Secular One';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/secularone/v5/8QINdiTajsj_87rMuMdKypDl.ttf) format('truetype')}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGsJow.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3msJow.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7GsJow.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXNig.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNig.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNig.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNig.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/secularone/v5/8QINdiTajsj_87rMuMdKypDl.ttf) format('truetype');
+}
+.btn {
+  display: inline-block;
+  padding: 1.5rem 0;
+  width: 300px;
+  font-size: 1.5rem;
+  text-align: center;
+  background: #444547;
+  color: #ffffff;
+  cursor: pointer;
+  border: 2px solid #444547;
+}
+.btn:hover {
+  color: #444547;
+  background: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  width: 100vw;
+  height: 100vh;
+  background: #ffbf37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.top header {
+  width: 80%;
+  height: 20%;
+}
+.top header nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+}
+.top header nav span .margen {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: inline-block;
+  outline: 4px solid yellow;
+  outline-offset: 7px;
+  letter-spacing: -1px;
+}
+.top header nav span .rest {
+  display: inline-block;
+  text-decoration: none;
+  color: #444547;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 0 10px;
+}
+.top header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+}
+.top header nav ul li a {
+  text-decoration: none;
+  color: #444547;
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+}
+.top header nav ul li a:hover {
+  text-decoration: underline;
+}
+.top article {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+}
+.top article .part1,
+.top article .part2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top article h1 {
+  font-size: 2.8rem;
+  color: #ffffff;
+}
+.top article p {
+  color: #ffffff;
+  font-weight: 100;
+  line-height: 2;
+}
+.top article .part2 img {
+  width: 100%;
+  height: auto;
+}
+.top article .part2 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top article .part2 span i {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
+.top article .part2 span i.g {
+  color: #444547;
+}
+.top article .part2 span i.b {
+  color: #ffffff;
+}
