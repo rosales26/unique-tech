@@ -153,6 +153,9 @@ body {
   font-size: 1.4rem;
   letter-spacing: -1px;
 }
+.top header nav ul li a:hover {
+  text-decoration: underline;
+}
 .top article {
   width: 80%;
   height: 60%;
