@@ -2,6 +2,7 @@
 .bloqueDos {
 	.title-container {
 		display: flex;
+		margin-top: 3em;
 
 		h2 {
 			margin: 0 auto;
@@ -19,5 +20,22 @@
 	article {
 		display: flex;
 		flex-direction: row;
+
+		.info-container {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			padding: 2em;
+
+			p {
+				text-align: justify;
+			}
+
+			button {
+				background: @amarillo;
+				padding: 1em;
+			}
+		}
 	}
 }
