@@ -1,0 +1,66 @@
+.bloqueCuatro{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22rem;
+    font-family: @Ws;
+    .title{
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0.6em 3.5em;
+        border-radius: 4px;
+        background: @gris-300;
+        color: @blanco;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    .cards{
+        width: 95%;
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .card{
+            width: 31%;
+            height: 22%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 2rem;
+            .imagen{
+                width: 15%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .words{
+                width: 80%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                h3{
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                }
+                p{
+                    line-height: 2;
+                    text-align: justify;
+                    font-weight: 100;
+                }
+            }
+
+            &.back{
+                background: @amarillo;
+            }
+        }
+    }
+}
