@@ -200,6 +200,9 @@ body {
 .bloqueUno article .part2 span i.b {
   color: #ffffff;
 }
+.bloqueDos {
+  padding: 2.5em 10em;
+}
 .bloqueDos .title-container {
   display: flex;
   margin-top: 3em;
@@ -216,6 +219,7 @@ body {
   font-weight: 500;
 }
 .bloqueDos article {
+  margin-top: 3em;
   display: flex;
   flex-direction: row;
 }
@@ -224,14 +228,19 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 2em;
+  font-family: 'Work Sans', sans-serif;
 }
 .bloqueDos article .info-container p {
+  margin: 1em 0;
   text-align: justify;
+  font-family: 'Quicksand', sans-serif;
 }
 .bloqueDos article .info-container button {
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
   background: #ffbf37;
-  padding: 1em;
+  padding: 1em 2.5em;
 }
 .bloqueTres {
   width: 100%;
@@ -260,4 +269,9 @@ body {
 .bloqueTres .img-con img {
   width: 100%;
   height: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
