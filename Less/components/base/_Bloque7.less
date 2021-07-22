@@ -1,0 +1,49 @@
+.bloqueSiete {
+	padding: 3em 10.5em;
+	display: flex;
+	margin: 3em 0;
+	flex-direction: column;
+	background-color: #fff;
+	.title-container {
+		display: flex;
+
+		h2 {
+			text-transform: uppercase;
+			padding: 0.6em 3.5em;
+			border-radius: 4px;
+			background: @gris-300;
+			color: @blanco;
+			font-family: @Ws;
+			font-weight: 500;
+		}
+	}
+	.business-container {
+		display: grid;
+		grid-template-columns: repeat(4, auto);
+		width: 100%;
+		gap: 2em;
+		background: @gris-100;
+		margin-top: 2em;
+		div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			p {
+				margin-top: 1em;
+				font-size: 1.2em;
+				font-family: @Ws;
+				font-weight: bold;
+			}
+		}
+
+		img {
+			width: 100%;
+			padding: 1rem;
+		}
+	}
+
+	.business-container > * {
+		flex-basis: 100%;
+	}
+}

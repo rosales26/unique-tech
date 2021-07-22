@@ -493,6 +493,52 @@ body {
   margin-top: 1em;
   width: 250px;
 }
+.bloqueSiete {
+  padding: 3em 10.5em;
+  display: flex;
+  margin: 3em 0;
+  flex-direction: column;
+  background-color: #fff;
+}
+.bloqueSiete .title-container {
+  display: flex;
+}
+.bloqueSiete .title-container h2 {
+  text-transform: uppercase;
+  padding: 0.6em 3.5em;
+  border-radius: 4px;
+  background: #444547;
+  color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+.bloqueSiete .business-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
+  gap: 2em;
+  background: #b3b3b3;
+  margin-top: 2em;
+}
+.bloqueSiete .business-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bloqueSiete .business-container div p {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+.bloqueSiete .business-container img {
+  width: 100%;
+  padding: 1rem;
+}
+.bloqueSiete .business-container > * {
+  flex-basis: 100%;
+}
 * {
   margin: 0;
   padding: 0;
