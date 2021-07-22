@@ -190,8 +190,8 @@ body {
   align-items: center;
 }
 .bloqueUno article .part2 span i {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
   font-size: 1.3rem;
 }
 .bloqueUno article .part2 span i.g {
@@ -441,6 +441,57 @@ body {
 .bloqueCinco table td.c1,
 .bloqueCinco table td.b {
   border-bottom: 2px solid #ffbf37;
+}
+.bloqueSeis {
+  padding: 3em 10.5em;
+  display: flex;
+  margin: 3em 0;
+  flex-direction: row;
+  background-color: #fff;
+  background-image: url('https://www.transparenttextures.com/patterns/60-lines.png');
+}
+.bloqueSeis .img-container {
+  width: 40%;
+}
+.bloqueSeis .img-container img {
+  background: white;
+  width: 100%;
+}
+.bloqueSeis .info-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+.bloqueSeis .info-container .title-container {
+  display: flex;
+}
+.bloqueSeis .info-container .title-container h2 {
+  text-transform: uppercase;
+  padding: 0.6em 3.5em;
+  border-radius: 4px;
+  background: #444547;
+  color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+.bloqueSeis .info-container p {
+  margin-top: 1em;
+  line-height: 1.8;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  font-size: 1.1em;
+  padding-right: 2em;
+  text-align: justify;
+}
+.bloqueSeis .info-container button {
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  background: #ffbf37;
+  padding: 1.5em 0;
+  margin-top: 1em;
+  width: 250px;
 }
 * {
   margin: 0;
