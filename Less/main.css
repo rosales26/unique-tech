@@ -277,7 +277,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 22rem;
+  margin-top: 29rem;
   font-family: 'Work Sans', sans-serif;
 }
 .bloqueCuatro .title {
@@ -332,6 +332,115 @@ body {
 }
 .bloqueCuatro .cards .card.back {
   background: #ffbf37;
+}
+.bloqueCinco {
+  margin-top: 3rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+}
+.bloqueCinco h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.6em 3.5em;
+  border-radius: 4px;
+  background: #444547;
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-block;
+}
+.bloqueCinco table {
+  width: 80%;
+  height: 80%;
+}
+.bloqueCinco table h3 {
+  text-align: center;
+  font-weight: 400;
+}
+.bloqueCinco table h3.gray {
+  color: #a5a5a5;
+  font-size: 1.5rem;
+}
+.bloqueCinco table h3.red {
+  color: red;
+  font-size: 2rem;
+}
+.bloqueCinco table h3.yellow {
+  color: #ffbf37;
+  font-size: 1.5rem;
+}
+.bloqueCinco table span {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.bloqueCinco table span.gray {
+  color: #a5a5a5;
+}
+.bloqueCinco table span.black {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.bloqueCinco table span.p1,
+.bloqueCinco table span.p2,
+.bloqueCinco table span.p3 {
+  font-size: 1.9rem;
+  color: #a5a5a5;
+}
+.bloqueCinco table span.p2 {
+  font-size: 2.5rem;
+  color: red;
+}
+.bloqueCinco table span.p3 {
+  color: #ffbf37;
+}
+.bloqueCinco table span.b1,
+.bloqueCinco table span.b2,
+.bloqueCinco table span.b3 {
+  margin-left: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 4px;
+  background: #a5a5a5;
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 75%;
+  font-weight: bold;
+}
+.bloqueCinco table span.b2 {
+  background: red;
+  font-weight: bolder;
+}
+.bloqueCinco table span.b3 {
+  background: #ffbf37;
+}
+.bloqueCinco table thead,
+.bloqueCinco table tfoot {
+  width: 100%;
+  height: 20%;
+}
+.bloqueCinco table tbody {
+  width: 100%;
+  height: 60%;
+}
+.bloqueCinco table td {
+  border-spacing: 0;
+}
+.bloqueCinco table td.center,
+.bloqueCinco table td.c1 {
+  border-left: 2px solid #ffbf37;
+  border-right: 2px solid #ffbf37;
+}
+.bloqueCinco table td.c1,
+.bloqueCinco table td.b {
+  border-bottom: 2px solid #ffbf37;
 }
 * {
   margin: 0;
