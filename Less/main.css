@@ -190,8 +190,8 @@ body {
   align-items: center;
 }
 .bloqueUno article .part2 span i {
-  margin-left: .5rem;
-  margin-right: .5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   font-size: 1.3rem;
 }
 .bloqueUno article .part2 span i.g {
@@ -538,6 +538,58 @@ body {
 }
 .bloqueSiete .business-container > * {
   flex-basis: 100%;
+}
+.bloqueOcho {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+}
+.bloqueOcho h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.6em 3.5em;
+  border-radius: 4px;
+  background: #444547;
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-block;
+}
+.bloqueOcho .members {
+  width: 100%;
+  height: 60%;
+  background: #ffbf37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloqueOcho .members .card {
+  height: 100%;
+  width: 14%;
+  margin: 5px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 2.5rem 0.5rem 1.5rem 0.5rem;
+}
+.bloqueOcho .members .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  background: #ffffff;
+}
+.bloqueOcho .members .card h3 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.bloqueOcho .members .card span {
+  font-weight: 200;
 }
 * {
   margin: 0;
