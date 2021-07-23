@@ -190,8 +190,8 @@ body {
   align-items: center;
 }
 .bloqueUno article .part2 span i {
-  margin-left: .5rem;
-  margin-right: .5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   font-size: 1.3rem;
 }
 .bloqueUno article .part2 span i.g {
@@ -649,6 +649,47 @@ body {
   padding: 1.5em 0;
   margin-top: 1em;
   width: 250px;
+}
+.bloqueDiez {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloqueDiez .fondo {
+  width: 80%;
+  height: 80%;
+}
+.bloqueDiez .fondo .imagen {
+  width: 100%;
+  height: 80%;
+  background: url("../../../media/1.jpg"), #ffbf37;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.bloqueDiez .fondo .words {
+  width: 100%;
+  height: 20%;
+  background: #ffbf37;
+  color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.bloqueDiez .fondo .words span {
+  font-size: 1.7rem;
+}
+.bloqueDiez .fondo .words h3 {
+  display: inline-block;
+  background: #ffffff;
+  color: black;
+  padding: 1rem 5rem;
 }
 * {
   margin: 0;
