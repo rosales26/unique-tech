@@ -1,0 +1,61 @@
+.bloqueNueve {
+	display: flex;
+	flex-direction: column;
+
+	.title-container {
+		display: flex;
+		justify-content: center;
+
+		h2 {
+			margin-bottom: 2em;
+			text-transform: uppercase;
+			padding: 0.6em 3.5em;
+			border-radius: 4px;
+			background: @gris-300;
+			color: @blanco;
+			font-family: @Ws;
+			font-weight: 500;
+		}
+	}
+
+	div {
+		display: flex;
+		flex-direction: row-reverse;
+		padding: 1em 10em;
+
+		.img-container {
+			width: 50%;
+
+			img {
+				background: white;
+				width: 100%;
+			}
+		}
+
+		.info-container {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			margin-right: 2em;
+
+			p {
+				margin-top: 1em;
+				line-height: 1.8;
+				font-family: @Qs;
+				font-weight: 100;
+				font-size: 1.1em;
+				padding-right: 2em;
+				text-align: justify;
+			}
+			button {
+				border: none;
+				border-radius: 3px;
+				font-weight: bold;
+				background: @amarillo;
+				padding: 1.5em 0;
+				margin-top: 1em;
+				width: 250px;
+			}
+		}
+	}
+}
