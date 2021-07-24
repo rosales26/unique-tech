@@ -1,0 +1,57 @@
+.bloqueOcho {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-family: @Ws;
+	margin-bottom: 5em;
+
+	h2 {
+		margin-bottom: 3em;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0.6em 3.5em;
+		border-radius: 4px;
+		background: @gris-300;
+		color: @blanco;
+		font-weight: 500;
+		display: inline-block;
+	}
+
+	.members {
+		width: 100%;
+		background: @amarillo;
+		padding: 2em;
+		display: grid;
+		gap: 2em;
+		grid-template-columns: repeat(5, auto);
+
+		.card {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			color: @blanco;
+			text-transform: uppercase;
+			padding: 2.5rem 0.5rem 1.5rem 0.5rem;
+
+			img {
+				width: 100%;
+				height: auto;
+				border-radius: 100%;
+				background: @blanco;
+			}
+
+			h3 {
+				font-weight: bolder;
+				font-size: 1.2rem;
+			}
+
+			span {
+				font-weight: 200;
+			}
+		}
+	}
+}

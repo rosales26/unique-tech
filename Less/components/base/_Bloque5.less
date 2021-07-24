@@ -1,0 +1,115 @@
+.bloqueCinco {
+	margin-top: 3rem;
+	max-width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-family: @Ws;
+	overflow: hidden;
+
+	h2 {
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0.6em 3.5em;
+		border-radius: 4px;
+		background: @gris-300;
+		color: @blanco;
+		font-weight: 500;
+		display: inline-block;
+	}
+
+	table {
+		width: 80%;
+		height: 80%;
+
+		h3 {
+			text-align: center;
+			font-weight: 400;
+			&.gray {
+				color: @gris-200;
+				font-size: 1.5rem;
+			}
+			&.red {
+				color: red;
+				font-size: 2rem;
+			}
+			&.yellow {
+				color: @amarillo;
+				font-size: 1.5rem;
+			}
+		}
+		span {
+			display: inline-block;
+			text-align: center;
+			width: 100%;
+			&.gray {
+				color: @gris-200;
+			}
+			&.black {
+				font-size: 1.2rem;
+				font-weight: bolder;
+			}
+			&.p1,
+			&.p2,
+			&.p3 {
+				font-size: 1.9rem;
+				color: @gris-200;
+			}
+			&.p2 {
+				font-size: 2.5rem;
+				color: red;
+			}
+			&.p3 {
+				color: @amarillo;
+			}
+			&.b1,
+			&.b2,
+			&.b3 {
+				margin-left: 3rem;
+				display: inline-block;
+				text-transform: uppercase;
+				text-align: center;
+				padding: 1em 2em;
+				border-radius: 4px;
+				background: @gris-200;
+				color: @blanco;
+				font-weight: 500;
+				display: inline-block;
+				font-size: 1.5rem;
+				width: 75%;
+				font-weight: bold;
+			}
+			&.b2 {
+				background: red;
+				font-weight: bolder;
+			}
+			&.b3 {
+				background: @amarillo;
+			}
+		}
+		thead,
+		tfoot {
+			width: 100%;
+			height: 20%;
+		}
+		tbody {
+			width: 100%;
+			height: 60%;
+		}
+
+		td {
+			border-spacing: 0;
+			&.center,
+			&.c1 {
+				border-left: 2px solid @amarillo;
+				border-right: 2px solid @amarillo;
+			}
+			&.c1,
+			&.b {
+				border-bottom: 2px solid @amarillo;
+			}
+		}
+	}
+}

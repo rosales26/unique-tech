@@ -1,0 +1,59 @@
+//Bloque#2 - what we do
+.bloqueDos {
+	padding: 2.5em 10em;
+	max-width: 100%;
+	//border: 3px solid red;
+
+	.title-container {
+		display: flex;
+		margin-top: 3em;
+
+		h2 {
+			margin: 0 auto;
+			text-transform: uppercase;
+			text-align: center;
+			padding: 0.6em 3.5em;
+			border-radius: 4px;
+			background: @gris-300;
+			color: @blanco;
+			font-family: @Ws;
+			font-weight: 500;
+		}
+	}
+
+	article {
+		margin-top: 3em;
+		display: flex;
+		flex-direction: row;
+
+		.img-container {
+			width: 40%;
+			img {
+				width: 100%;
+			}
+		}
+
+		.info-container {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			font-family: @Ws;
+			width: 60%;
+
+			p {
+				margin: 1em 0;
+				text-align: justify;
+				font-family: @Qs;
+			}
+
+			button {
+				border: none;
+				border-radius: 3px;
+				font-weight: bold;
+				background: @amarillo;
+				padding: 1em 2.5em;
+			}
+		}
+	}
+}
